@@ -44,14 +44,13 @@
 
 .about-know-more-page {
     background:black;
-    position: absolute;
+    position: fixed;
     top: 0;
-    left: 0;
     height: 100%;
     width: 100%;
     transform: translateX(150%);
     transition: 0.75s all ease-in-out;
-    z-index: 51;
+    z-index: 56;
 }
 
 .about-know-more-active {

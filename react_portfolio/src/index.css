@@ -8,6 +8,10 @@ body {
   overflow-x:hidden;
 }
 
+.active-body {
+  overflow-y: hidden;
+}
+
 @font-face {
   font-family: "FuturaMedium";
   src: url(./font/FuturaPTCondMedium.otf);

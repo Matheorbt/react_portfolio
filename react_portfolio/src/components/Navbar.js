@@ -7,6 +7,8 @@ function Navbar() {
         const hamburgerPage = document.querySelector(".navbar-hamburger-menu-page")
         const hamburgerMenuBarOne = document.querySelector(".bar-one")
         const hamburgerMenuBarTwo = document.querySelector(".bar-two")
+        const body = document.body
+        body.classList.toggle("active-body")
         hamburgerPage.classList.toggle("navbar-hamburger-menu-page-active")
         hamburgerMenuBarOne.classList.toggle("bar-one-active")
         hamburgerMenuBarTwo.classList.toggle("bar-two-active")
