@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  overflow-x:hidden;
+}
+
 @font-face {
   font-family: "FuturaMedium";
   src: url(./font/FuturaPTCondMedium.otf);

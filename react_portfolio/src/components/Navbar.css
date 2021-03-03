@@ -7,7 +7,7 @@
     justify-content: space-between;
     background-color: white;
     mix-blend-mode: difference;
-    z-index: 50;
+    z-index: 55;
 }
 
 .navbar-right-section {
@@ -28,16 +28,14 @@
     margin-left: 1rem;
 }
 
-.navbar-left-section h1 {
-    font-family: 'Merriweather', serif;
-    font-size: 2rem;
-}
-
 .navbar-hamburger-menu {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 30px;
+    height: 20px;
+    background: none;
+    border: none;
+    outline: none;
 }
 
 .navbar-hamburger-menu-bar {
@@ -45,6 +43,7 @@
     width: 50px;
     border-radius: 25%;
     background: black;
+    transition: 0.25s all ease-in-out;
 }
 
 .navbar-right-section div {
@@ -54,4 +53,49 @@
 
 .navbar-hamburger-menu-bar:hover {
     cursor: pointer;
+}
+
+.navbar-hamburger-menu-page {
+    background:black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transform: translateX(-150%);
+    transition: 0.75s all ease-in-out;
+    z-index: 51;
+}
+
+.navbar-hamburger-menu-page-anchor-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-size: 7vw;
+    font-family: 'FuturaMedium';
+    height: 100%;
+    margin-top: 25px;
+}
+
+.navbar-hamburger-menu-page-anchor-wrapper a {
+    transition: 0.25s all ease-in-out;
+}
+
+.navbar-hamburger-menu-page-anchor-wrapper a:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.navbar-hamburger-menu-page-active {
+    transform: translateX(0%);
+}
+
+.bar-one-active {
+    transform: rotate(45deg);
+}
+
+.bar-two-active {
+    transform: rotate(-45deg);
 }
