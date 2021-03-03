@@ -91,6 +91,7 @@
     height: 20px;
     width:0%;
     background-color: red;
+    transition: 0.25s all ease-in-out;
 }
 
 .navbar-hamburger-menu-page-anchor-wrapper a:hover{
