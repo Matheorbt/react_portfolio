@@ -65,6 +65,9 @@
     transform: translateX(-150%);
     transition: 0.75s all ease-in-out;
     z-index: 51;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .navbar-hamburger-menu-page-anchor-wrapper {
@@ -75,7 +78,7 @@
     color: white;
     font-size: 7vw;
     font-family: 'FuturaMedium';
-    height: 100%;
+    height: calc(100% - 80px);
     margin-top: 25px;
 }
 
@@ -119,4 +122,16 @@
     width:100%;
     background-color: red;
     transition: 0.25s all ease-in-out;
+}
+
+@media only screen and (max-device-width: 1000px)  {
+    .navbar-hamburger-menu-page-anchor-wrapper {
+    font-size: 15vw;
+    }
+}
+
+@media only screen and (max-device-width: 500px)  {
+    .navbar-hamburger-menu-page-anchor-wrapper {
+    font-size: 25vw;
+    }
 }
