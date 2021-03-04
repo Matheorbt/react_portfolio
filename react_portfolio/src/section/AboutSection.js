@@ -12,8 +12,8 @@ function AboutSection() {
                 <div className="about-know-more-page">
                     <button className="about-know-more-arrow" onClick={() => handleKnowMore()}><i className="fa fa-arrow-circle-o-left" aria-hidden="true"></i>Retour</button>
                     <div className="about-know-more-main-wrapper">
-                        <div className="about-know-more-profile-picture">
-                            <h1>profile picture</h1>
+                        <div className="about-know-more-profile-picture-wrapper">
+                            <img className="about-know-more-profile-picture" src="https://www.matheorbt.com/img/profile_picture.jpg" alt="profile" />
                         </div>
                         <div className="about-know-more-description">
                             Actuellement étudiant en première année au cursus PGE de l'école Epitech sur le campus de Lyon, j'ai
@@ -27,6 +27,9 @@ function AboutSection() {
                 <div className="about-top-wrapper">
                     <p className="about-description">Etudiant à Epitech PGE sur le campus de Lyon, passionné par le développement web, le design d’UI / UX.</p>
                     <button className="about-know-more-arrow" onClick={() => handleKnowMore()}>En savoir plus !<i className="fa fa-arrow-circle-o-right" aria-hidden="true"></i></button>
+                </div>
+                <div className="about-bottom-wrapper">
+                    <div id="about-google-map"></div>
                 </div>
             </section>
         </div>

@@ -28,6 +28,10 @@
   <!-- Font awesome CDN -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+  <!-- script map google -->
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCGKJoVckZiHKxiv6vUkKntU5CI3DUdWnQ&callback=initMap"></script>
+  <script src="js/main.js"></script>
   <title>React App</title>
 </head>
 
@@ -44,6 +48,20 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+  <script>
+    //Initialisation de la fonction de l'API Javascript
+    function initMap() {
+      var epitech = { lat: 45.74671126902152, lng: 4.834958581829663 };
+      var map = new google.maps.Map(document.getElementById("about-google-map"), {
+        zoom: 15,
+        center: epitech,
+      });
+      var marker = new google.maps.Marker({
+        position: epitech,
+        map: map,
+      });
+    }
+  </script>
 </body>
 
 </html>

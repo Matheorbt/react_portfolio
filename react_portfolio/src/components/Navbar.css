@@ -46,9 +46,13 @@
     transition: 0.25s all ease-in-out;
 }
 
-.navbar-right-section div {
+.navbar-right-section a {
     cursor: pointer;
     font-size: 40px;
+}
+
+.navbar-right-section a:nth-child(1):hover {
+    color: #0E76A8;
 }
 
 .navbar-hamburger-menu-bar:hover {
