@@ -87,6 +87,7 @@
 
 .navbar-hamburger-menu-page-anchor-wrapper a {
     transition: 0.25s all ease-in-out;
+    color: white;
 }
 
 .navbar-hamburger-menu-page-anchor-wrapper a::after {
@@ -126,6 +127,7 @@
     background-color: red;
     transition: 0.25s all ease-in-out;
 }
+
 
 @media only screen and (max-device-width: 1000px)  {
     .navbar-hamburger-menu-page-anchor-wrapper {

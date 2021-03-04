@@ -1,0 +1,14 @@
+.work-main-wrapper {
+    background-color: black;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.work-top-hero-title {
+    color: white;
+    font-family: 'FuturaMedium';
+    font-size: 5vw;
+}

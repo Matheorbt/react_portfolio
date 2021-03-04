@@ -7,7 +7,7 @@ function AboutSection() {
         aboutKnowMorePage.classList.toggle("about-know-more-active")
     }
     return (
-        <div>
+        <React.Fragment>
             <section className="about-main-wrapper">
                 <div className="about-know-more-page">
                     <button className="about-know-more-arrow" onClick={() => handleKnowMore()}><i className="fa fa-arrow-circle-o-left" aria-hidden="true"></i>Retour</button>
@@ -32,7 +32,7 @@ function AboutSection() {
                     <div id="about-google-map"></div>
                 </div>
             </section>
-        </div>
+        </React.Fragment>
     )
 }
 

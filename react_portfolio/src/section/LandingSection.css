@@ -29,11 +29,3 @@
     border-top : calc(100vh - 80px) solid white;
     z-index: 5;
 }
-
-/* @media only screen and (max-width: 900px) {
-  .worksTitle {
-    position: absolute;
-    top: 12%;
-    left: 22%;
-  }
-} */

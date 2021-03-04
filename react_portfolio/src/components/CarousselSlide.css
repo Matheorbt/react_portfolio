@@ -1,0 +1,28 @@
+.work-bottom-caroussel-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.work-bottom-caroussel-slide-img-container {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.work-bottom-caroussel-slide-img {
+    border-radius: 5%;
+    height: 450px;
+    width: 650px;
+}
+
+.work-bottom-caroussel-slide-img-hover {
+    position: relative;
+    top: -20%;
+    height: 80%;
+    width: 100%;
+    background-color: black;
+}
