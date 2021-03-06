@@ -1,7 +1,7 @@
 import React from 'react'
-import './CarousselSlide.css'
+import './ProjectGridElement.css'
 
-function CarousselSlide(props) {
+function ProjectGridElement(props) {
     const { img, title, description } = props;
     return (
         <React.Fragment>

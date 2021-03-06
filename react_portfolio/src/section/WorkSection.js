@@ -1,6 +1,6 @@
 import React from 'react'
 import './WorkSection.css'
-import Caroussel from '../components/Caroussel';
+import ProjectGrid from '../components/ProjectGrid';
 
 function WorkSection() {
     return (
@@ -11,7 +11,7 @@ function WorkSection() {
                 </div>
                 <div className="work-bottom-wrapper">
                     <div className="work-bottom-caroussel-container">
-                        <Caroussel />
+                        <ProjectGrid />
                     </div>
                 </div>
             </div>

@@ -25,4 +25,18 @@
     height: 80%;
     width: 100%;
     background-color: black;
+    opacity: 80%;
+    z-index: 50;
+}
+
+.work-bottom-caroussel-slide-title {
+    font-family: 'FuturaMedium';
+    text-align: center;
+    font-size: 3vw;
+}
+
+.work-bottom-caroussel-slide-description {
+    font-family: 'FuturaMedium';
+    text-align: center;
+    font-size: 2vw;
 }
