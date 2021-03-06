@@ -18,4 +18,4 @@ function ProjectGridElement(props) {
     )
 }
 
-export default CarousselSlide
+export default ProjectGridElement

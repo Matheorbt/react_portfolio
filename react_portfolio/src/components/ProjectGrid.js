@@ -1,6 +1,6 @@
 import React from 'react'
 import './ProjectGrid.css'
-import CarousselSlide from './ProjectGridElement';
+import ProjectGridElement from './ProjectGridElement';
 import { workData } from '../data/workData'
 
 
@@ -18,7 +18,7 @@ function ProjectGrid() {
                 <button className="caroussel-btn caroussel-btn-next" type="button" onClick={() => nextSlide()}><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></button>
                 {workData.map((project) => {
                     return (
-                        <CarousselSlide key={project.id} {...project} />
+                        <ProjectGridElement key={project.id} {...project} />
                     )
                 })}
             </section>
@@ -26,4 +26,4 @@ function ProjectGrid() {
     )
 }
 
-export default Caroussel
+export default ProjectGrid
