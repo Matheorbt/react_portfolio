@@ -12,3 +12,15 @@
     font-family: 'FuturaMedium';
     font-size: 5vw;
 }
+
+@media only screen and (max-device-width: 1600px)  {
+    .work-top-hero-title {
+    font-size: 8vw;
+    }
+}
+
+@media only screen and (max-device-width: 500px)  {
+    .work-top-hero-title {
+    font-size: 17vw;
+    }
+}

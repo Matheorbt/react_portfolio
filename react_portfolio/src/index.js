@@ -5,6 +5,7 @@ import LandingSection from './section/LandingSection';
 import AboutSection from './section/AboutSection';
 import WorkSection from './section/WorkSection';
 import ContactSection from './section/ContactSection';
+import Footer from './section/Footer';
 import Navbar from './components/Navbar';
 
 ReactDOM.render(
@@ -14,6 +15,7 @@ ReactDOM.render(
     <AboutSection />
     <WorkSection />
     <ContactSection />
+    <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );
