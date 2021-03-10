@@ -5,12 +5,6 @@ import { workData } from '../data/workData'
 
 
 function ProjectGrid() {
-    const nextSlide = () => {
-        console.log("Next Slide");
-    }
-    const previousSlide = () => {
-        console.log("Previous Slide");
-    }
     return (
         <React.Fragment>
             <section className="caroussel-main-wrapper">

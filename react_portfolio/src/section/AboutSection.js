@@ -8,6 +8,7 @@ function AboutSection() {
     }
     return (
         <React.Fragment>
+            <div id="about"></div>
             <section className="about-main-wrapper">
                 <div className="about-know-more-page">
                     <button className="about-know-more-arrow" onClick={() => handleKnowMore()}><i className="fa fa-arrow-circle-o-left" aria-hidden="true"></i>Retour</button>

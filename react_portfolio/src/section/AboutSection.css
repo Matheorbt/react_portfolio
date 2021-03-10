@@ -56,6 +56,7 @@
     transform: translateX(150%);
     transition: 0.75s all ease-in-out;
     z-index: 56;
+    overflow-y: scroll;
 }
 
 .about-know-more-active {
@@ -110,10 +111,47 @@
     background-color: grey;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1500px) {
     .about-bottom-wrapper {
         width: 80vw;
         height: 55vw;
+    }
+    .about-know-more-profile-picture {
+        width: 14vw;
+        height: 18vw;
+        margin-top: 70px;
+    }
+    .about-know-more-description {
+        font-size: 3vw;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .about-bottom-wrapper {
+        width: 80vw;
+        height: 55vw;
+    }
+    .about-know-more-profile-picture {
+        width: 24vw;
+        height: 30vw;
+        margin-top: 70px;
+    }
+    .about-know-more-description {
+        font-size: 4vw;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .about-bottom-wrapper {
+        width: 80vw;
+        height: 55vw;
+    }
+    .about-know-more-profile-picture {
+        width: 44vw;
+        height: 50vw;
+    }
+    .about-know-more-description {
+        font-size: 7vw;
     }
 }
 

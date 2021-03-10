@@ -5,6 +5,7 @@ import ProjectGrid from '../components/ProjectGrid';
 function WorkSection() {
     return (
         <React.Fragment>
+            <div id="work"></div>
             <div className="work-main-wrapper">
                 <div className="work-top-wrapper">
                     <h1 className="work-top-hero-title">Projets</h1>

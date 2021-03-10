@@ -13,7 +13,7 @@
 .footer-left-copyright {
     color: white;
     font-family: 'FuturaMedium';
-    font-size: 2vw;
+    font-size:1.75vw;
 }
 
 .footer-right-wrapper {
@@ -22,10 +22,6 @@
     align-items: center;
     flex-direction: column;
     gap: 10px;
-    color: white;
-    font-family: 'FuturaMedium';
-    font-size: 2vw;
-    text-decoration: none;
 }
 
 .footer-right-git i{
@@ -36,4 +32,102 @@
 .footer-right-linkedin i{
     font-size: 2vw;
     color: white;
+}
+
+.footer-right-linkedin {
+    color: white;
+    font-family: 'FuturaMedium';
+    font-size: 2vw;
+    transition: 0.25s all ease-in-out;
+}
+
+.footer-right-git {
+    color: white;
+    font-family: 'FuturaMedium';
+    font-size: 2vw;
+    transition: 0.25s all ease-in-out;
+}
+
+.footer-right-git:hover {
+    opacity: 0.5;
+}
+
+.footer-right-linkedin:hover {
+    opacity: 0.5;
+}
+
+.footer-right-mail {
+    color: white;
+    font-family: 'FuturaMedium';
+    font-size: 2vw;
+    transition: 0.25s all ease-in-out;
+}
+
+@media only screen and (max-device-width: 1300px)  {
+    .footer-right-git {
+        font-size: 4vw;
+    }
+    .footer-right-linkedin {
+        font-size: 4vw;
+    }
+    .footer-right-mail {
+        font-size: 4vw;
+    }
+    .footer-right-git i{
+        font-size: 4vw;
+    }
+    .footer-right-linkedin i{
+        font-size: 4vw;
+    }
+    .footer-left-copyright {
+    font-size: 2.5vw;
+    }
+}
+
+@media only screen and (max-device-width: 900px)  {
+    .footer-right-git {
+        font-size: 5vw;
+    }
+    .footer-right-linkedin {
+        font-size: 5vw;
+    }
+    .footer-right-mail {
+        font-size: 5vw;
+    }
+    .footer-right-git i{
+        font-size: 5vw;
+    }
+    .footer-right-linkedin i{
+        font-size: 5vw;
+    }
+    .footer-left-copyright {
+    font-size: 4vw;
+    }
+    .footer-main-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-device-width: 600px)  {
+    .footer-right-git {
+        font-size: 7vw;
+    }
+    .footer-right-linkedin {
+        font-size: 7vw;
+    }
+    .footer-right-mail {
+        font-size: 7vw;
+    }
+    .footer-right-git i{
+        font-size: 7vw;
+    }
+    .footer-right-linkedin i{
+        font-size: 7vw;
+    }
+    .footer-left-copyright {
+        font-size: 6vw;
+    }
 }
