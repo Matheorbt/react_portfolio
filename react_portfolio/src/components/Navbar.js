@@ -14,10 +14,10 @@ function Navbar() {
         <React.Fragment>
             <div className="navbar-hamburger-menu-page">
                 <div className="navbar-hamburger-menu-page-anchor-wrapper">
-                    <a href="#home" aria-label="HOME anchor" name="HOME Anchor">HOME</a>
-                    <a href="#about" aria-label="ABOUT anchor" name="ABOUT Anchor">ABOUT</a>
-                    <a href="#work" aria-label="WORK anchor" name="WORK Anchor">WORK</a>
-                    <a href="#contact" aria-label="CONTACT anchor" name="CONTACT Anchor">CONTACT</a>
+                    <a href="#home" aria-label="HOME anchor" name="HOME Anchor" onClick={() => handleHamburger()}>HOME</a>
+                    <a href="#about" aria-label="ABOUT anchor" name="ABOUT Anchor" onClick={() => handleHamburger()}>ABOUT</a>
+                    <a href="#work" aria-label="WORK anchor" name="WORK Anchor" onClick={() => handleHamburger()}>WORK</a>
+                    <a href="#contact" aria-label="CONTACT anchor" name="CONTACT Anchor" onClick={() => handleHamburger()}>CONTACT</a>
                 </div>
             </div>
             <div className="navbar-wrapper">
