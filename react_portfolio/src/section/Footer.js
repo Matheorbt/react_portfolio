@@ -11,7 +11,7 @@ function Footer() {
                 <div className="footer-right-wrapper">
                     <a className="footer-right-linkedin" href="https://www.linkedin.com/in/mathéo-robert-3490271b8" target="_blank" rel="noreferrer"><i className="fa fa-linkedin" aria-hidden="true"></i> Linkedin</a>
                     <a className="footer-right-git" href="https://github.com/Matheorbt" target="_blank" rel="noreferrer"><i className="fa fa-github" aria-hidden="true"></i> Github</a>
-                    <p className="footer-right-mail"><i class="fa fa-envelope" aria-hidden="true"></i> matheo.robert@epitech.eu</p>
+                    <p className="footer-right-mail"><i className="fa fa-envelope" aria-hidden="true"></i> matheo.robert@epitech.eu</p>
                 </div>
             </footer>
         </React.Fragment >

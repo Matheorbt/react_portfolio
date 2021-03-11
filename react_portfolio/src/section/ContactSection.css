@@ -1,0 +1,69 @@
+.contact-hero-title {
+    color: black;
+    font-family: 'FuturaMedium';
+    font-size: 5vw;
+    text-align: center;
+}
+
+.contact-main-wrapper {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact-form-top-wrapper {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+}
+
+label,input {
+    display: block;
+}
+
+.contact-form label {
+    font-size: 4vw;
+    font-family: 'FuturaMedium';
+}
+
+.contact-form-input {
+    border: solid 1.5px black;
+    height: 35px;
+}
+
+.contact-form-button {
+    font-size: 4vw;
+    font-family: 'FuturaMedium';
+    all: unset;
+    padding: 5px;
+    border: 1.5px solid black;
+    margin-top: 20px;
+    transition: 0.25s all ease-in-out;
+}
+
+.contact-form-button:hover {
+    border: 1.5px solid white;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.contact-form-button span {
+    font-size: 4vw;
+    font-family: 'FuturaMedium';
+}
+
+.contact-form-input-message {
+    border: solid 1.5px black;
+    height: 150px;
+    width: 375px;
+}
