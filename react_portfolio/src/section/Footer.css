@@ -34,6 +34,11 @@
     color: white;
 }
 
+.footer-right-mail i{
+    font-size: 2vw;
+    color: white;
+}
+
 .footer-right-linkedin {
     color: white;
     font-family: 'FuturaMedium';
@@ -76,6 +81,9 @@
     .footer-right-git i{
         font-size: 4vw;
     }
+    .footer-right-mail i{
+        font-size: 4vw;
+    }
     .footer-right-linkedin i{
         font-size: 4vw;
     }
@@ -95,6 +103,9 @@
         font-size: 5vw;
     }
     .footer-right-git i{
+        font-size: 5vw;
+    }
+    .footer-right-mail i{
         font-size: 5vw;
     }
     .footer-right-linkedin i{
@@ -122,6 +133,9 @@
         font-size: 7vw;
     }
     .footer-right-git i{
+        font-size: 7vw;
+    }
+    .footer-right-mail i{
         font-size: 7vw;
     }
     .footer-right-linkedin i{
