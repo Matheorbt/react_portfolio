@@ -18,3 +18,8 @@ body {
   font-family: "FuturaMedium";
   src: url(./font/FuturaPTCondMedium.otf);
 }
+
+@font-face {
+  font-family: "FuturaLight";
+  src: url(./font/FuturaPTLight.otf);
+}
