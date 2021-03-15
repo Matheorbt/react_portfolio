@@ -8,7 +8,7 @@ function WorkSection() {
             <div id="work"></div>
             <div className="work-main-wrapper">
                 <div className="work-top-wrapper">
-                    <h1 className="work-top-hero-title">Projets</h1>
+                    <div className="work-top-hero-title"><span className="work-top-p">P</span><span className="work-top-r">r</span><span className="work-top-o">o</span><span className="work-top-j">j</span><span className="work-top-e">e</span><span className="work-top-t">t</span><span className="work-top-s">s</span></div>
                 </div>
                 <div className="work-bottom-wrapper">
                     <div className="work-bottom-caroussel-container">

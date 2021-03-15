@@ -8,19 +8,67 @@
 }
 
 .work-top-hero-title {
+    position: relative;
     color: white;
     font-family: 'FuturaMedium';
-    font-size: 5vw;
+    font-size: 12vw;
 }
 
-@media only screen and (max-device-width: 1600px)  {
+.work-top-hero-title::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    display: block;
+    height: 7%;
+    width:100%;
+    background-color: red;
+    transition: 0.25s all ease-in-out;
+    z-index: 52;
+}
+
+.work-top-hero-title span:nth-child(1) {
+    position: relative;
+    z-index: 53;
+}
+
+.work-top-hero-title span:nth-child(2) {
+    position: relative;
+    z-index: 51;
+}
+
+.work-top-hero-title span:nth-child(3) {
+    position: relative;
+    z-index: 53;   
+}
+
+.work-top-hero-title span:nth-child(4) {
+    position: relative;
+    z-index: 51;    
+}
+
+.work-top-hero-title span:nth-child(5) {
+    position: relative;
+    z-index: 53;
+}
+
+.work-top-hero-title span:nth-child(6) {
+    position: relative;
+    z-index: 51;
+}
+
+.work-top-hero-title span:nth-child(7) {
+    position: relative;
+    z-index: 53;    
+}
+
+@media only screen and (max-device-width: 1200px)  {
     .work-top-hero-title {
-    font-size: 8vw;
+    font-size: 18vw;
     }
 }
 
 @media only screen and (max-device-width: 500px)  {
     .work-top-hero-title {
-    font-size: 17vw;
+    font-size: 20vw;
     }
 }
