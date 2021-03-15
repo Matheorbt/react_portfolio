@@ -86,6 +86,42 @@
 }
 
 .navbar-hamburger-menu-page-anchor-wrapper a {
+    transition: 0.75s all ease-in-out;
+    color: white;
+}
+
+.navbar-hamburger-menu-page-anchor-home {
+    opacity: 1;
+    transform: translateX(0%);
+}
+
+.navbar-hamburger-menu-page-anchor-work {
+    opacity: 1;
+    transform: translateX(0%);
+}
+
+.navbar-hamburger-menu-page-anchor-about {
+    opacity: 1;
+    transform: translateX(0%);
+}
+
+.navbar-hamburger-menu-page-anchor-contact {
+    opacity: 1;
+    transform: translateX(0%);
+}
+
+.inactive-navbar-right {
+    transform: translateX(50%);
+    opacity: 0;
+}
+
+.inactive-navbar-left {
+    transform: translateX(-50%);
+    opacity: 0;
+}
+
+
+.navbar-hamburger-menu-page-anchor-wrapper a {
     transition: 0.25s all ease-in-out;
     color: white;
 }
