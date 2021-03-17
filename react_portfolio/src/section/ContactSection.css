@@ -6,8 +6,8 @@
 }
 
 .contact-main-wrapper {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 45px;
+    margin-bottom: 45px;
 }
 
 .contact-form {
@@ -15,6 +15,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    transition: 0.75s all ease-in-out;
 }
 
 .contact-form-top-wrapper {
@@ -38,6 +39,9 @@ label,input {
 .contact-form-input {
     border: solid 1.5px black;
     height: 35px;
+    font-family: 'FuturaMedium';
+    font-size: 2vw;
+    height: 3vw;
 }
 
 .contact-form-button {
@@ -48,6 +52,7 @@ label,input {
     border: 1.5px solid black;
     margin-top: 20px;
     transition: 0.25s all ease-in-out;
+    border-radius: 25px;
 }
 
 .contact-form-button:hover {
@@ -65,5 +70,38 @@ label,input {
 .contact-form-input-message {
     border: solid 1.5px black;
     height: 150px;
-    width: 375px;
+    resize: none;
+    font-size: 2vw;
+}
+
+.contact-form-send {
+    margin-top: 45px;
+    position: absolute;
+    transform: translateX(0%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    transition: 0.75s all ease-in-out;
+}
+
+.contact-form-send h1 {
+    color: black;
+    font-family: 'FuturaMedium';
+    font-size: 5vw;
+}
+
+.contact-form-send-svg {
+    width: 90vw;
+}
+
+.contact-hidden-message {
+    position: absolute;
+    transform: translateX(-150%);
+}
+
+.contact-hide-form {
+    position: relative;
+    transform: translateX(150%);
 }

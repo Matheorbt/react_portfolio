@@ -7,7 +7,7 @@ import { workData } from '../data/workData'
 function ProjectGrid() {
     return (
         <React.Fragment>
-            <section className="caroussel-main-wrapper">
+            <section className="project-main-wrapper">
                 {workData.map((project) => {
                     return (
                         <ProjectGridElement key={project.id} {...project} />

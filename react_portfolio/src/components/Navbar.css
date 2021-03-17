@@ -7,7 +7,7 @@
     justify-content: space-between;
     background-color: white;
     mix-blend-mode: difference;
-    z-index: 55;
+    z-index: 105;
 }
 
 .navbar-right-section {
@@ -67,7 +67,7 @@
     width: 100%;
     transform: translateX(-150%);
     transition: 0.75s all ease-in-out;
-    z-index: 51;
+    z-index: 100;
     display: flex;
     justify-content: center;
     align-items: center;

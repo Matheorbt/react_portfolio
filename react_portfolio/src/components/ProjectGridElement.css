@@ -1,46 +1,57 @@
+.work-grid-element-main-wrap {
+    display: flex;
+    position: relative;
+    height: 350px;
+}
+
+.work-bottom-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.work-project-know-more {
+    position: relative;
+    height:100%;
+    right: 2%;
+    width: 90%;
+    border-radius: 25px;
+    background-color: white;
+    max-width: 650px;
+    z-index: 55;
+}
+
 .work-bottom-grid-element {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-}
-
-.work-bottom-grid-element-img-container {
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 90%;
+    box-shadow: 2px 8px 4px 3px rgba(0, 0, 0, 0.25);
 }
 
 .work-bottom-grid-element-img {
-    border-radius: 5%;
-    height: 80%px;
+    width: 90%;
+    height: 100%;
+    z-index: 60;
+    border-radius: 25px;
     width: 100%;
     max-width: 650px;
-}
-
-.work-bottom-grid-element-img-hover {
-    position: relative;
-    top: -20%;
-    height: 80%;
-    width: 100%;
-    background-color: black;
-    opacity: 80%;
-    z-index: 50;
+    box-shadow: 2px 8px 4px 3px rgba(0, 0, 0, 0.25);
 }
 
 .work-bottom-grid-element-title {
     font-family: 'FuturaMedium';
     text-align: center;
     font-size: 4.5vw;
+    visibility: hidden;
 }
 
 .work-bottom-grid-element-description {
     font-family: 'FuturaMedium';
     text-align: center;
     font-size: 3.5vw;
+    visibility: hidden;
 }
 
 @media only screen and (max-device-width: 1450px)  {
@@ -49,5 +60,9 @@
     }
     .work-bottom-grid-element-description {
     font-size: 5vw;
+    }
+    .work-grid-element-main-wrap {
+        display: flex;
+        flex-direction: column;
     }
 }

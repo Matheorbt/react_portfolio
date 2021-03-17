@@ -11,9 +11,7 @@ function WorkSection() {
                     <div className="work-top-hero-title"><span className="work-top-p">P</span><span className="work-top-r">r</span><span className="work-top-o">o</span><span className="work-top-j">j</span><span className="work-top-e">e</span><span className="work-top-t">t</span><span className="work-top-s">s</span></div>
                 </div>
                 <div className="work-bottom-wrapper">
-                    <div className="work-bottom-caroussel-container">
-                        <ProjectGrid />
-                    </div>
+                    <ProjectGrid />
                 </div>
             </div>
         </React.Fragment>
