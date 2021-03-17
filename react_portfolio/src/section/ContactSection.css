@@ -76,6 +76,7 @@ label,input {
     height: 150px;
     resize: none;
     font-size: 2vw;
+    font-family: 'FuturaMedium';
 }
 
 .contact-form-send {
