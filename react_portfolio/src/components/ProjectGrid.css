@@ -1,11 +1,39 @@
 .project-main-wrapper {
     display: grid;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    grid-template-columns: repeat(1, 1fr);
-    place-items: center;
+    grid-template-columns: repeat(2, 45vw);
+    grid-template-rows: repeat(2, 25vw);
     width: 95%;
+    grid-gap: 20px;
+}
+
+.work-grid-element-main-wrap {
+    height: 100%;
+    width: 100%;
+}
+
+.number-1 {
+    grid-row: 1;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.number-2 {
+    grid-area: 2/1;
+}
+
+.number-3 {
+    grid-area: 2/2;
+}
+
+.work-grid-element-main-wrap .work-bottom-grid-element-img {
+    height: 100%;
+    width: 100%;
+    border-radius: 35px;
+}
+
+.work-bottom-grid-element {
+    width: 100%;
+    height: 100%;
 }
 
 @media only screen and (max-device-width: 1450px)  {

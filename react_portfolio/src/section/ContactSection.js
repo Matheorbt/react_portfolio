@@ -11,7 +11,6 @@ function ContactSection() {
         formSentMessage.classList.toggle("contact-hidden-message");
     }
     const submitForm = () => {
-        const formContact = document.querySelector(".contact-form");
         hideForm();
         init("user_fLHHPrdTGF5QqjiWRUaiY");
         var templateParams = {
