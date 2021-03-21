@@ -2,27 +2,127 @@
     display: grid;
     grid-template-columns: repeat(2, 45vw);
     grid-template-rows: repeat(2, 25vw);
+    place-items: center;
     width: 95%;
     grid-gap: 20px;
+    margin-bottom: 45px;
+}
+
+.work-section-hero-title {
+    position: relative;
+    color: white;
+    font-family: 'FuturaMedium';
+    font-size: 4vw;
+    text-align: center;
+    margin-bottom: 45px;
 }
 
 .work-grid-element-main-wrap {
     height: 100%;
     width: 100%;
+    transition: 0.25s all ease-in-out;
 }
+
+.work-grid-element-main-wrap:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.work-bottom-grid-element-link {
+    font-size: 3vw;
+    margin-right:10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'FuturaMedium';
+    background: none;
+    border: none;
+    outline: none;
+    color: black;
+    border-radius: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: white;
+    transition: 0.15s all ease-in-out;
+    border: 3px solid transparent;
+    z-index: 100;
+}
+
+.work-bottom-grid-element-link:hover {
+    cursor: pointer;
+    background-color: black;
+    border: solid black 3px;
+    color: white;
+}
+
+.work-bottom-grid-element-back {
+    height: 100%;
+    width: 100%;
+    border-radius: 35px;
+    background-color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.work-bottom-grid-element-title {
+    position: absolute;
+    top: 0;
+    color: black;
+    font-family: 'FuturaMedium';
+    font-size: 4vw;
+    text-align: center;
+}
+
+.work-bottom-grid-element-description {
+    position: relative;
+    color: black;
+    font-family: 'FuturaMedium';
+    font-size: 3vw;
+    text-align: center;
+}
+
+.work-bottom-grid-element-front {
+    position: relative;
+    z-index: 25;
+}
+
+.work-bottom-grid-element-back {
+    position: absolute;
+    z-index: 20;
+}
+
+/* First Project */
 
 .number-1 {
     grid-row: 1;
     grid-column-start: 1;
     grid-column-end: 2;
+    display: flex;
+    justify-content: center;
+    position: relative;
 }
+
+/* Second Project */
 
 .number-2 {
     grid-area: 2/1;
+    justify-self: stretch;
+    display: flex;
+    justify-content: center;
+    position: relative;
 }
+
+/* Third Project */
 
 .number-3 {
     grid-area: 2/2;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    position: relative;
 }
 
 .work-grid-element-main-wrap .work-bottom-grid-element-img {
