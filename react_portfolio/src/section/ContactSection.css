@@ -76,6 +76,7 @@ label,input {
     height: 150px;
     resize: none;
     font-size: 2vw;
+    width: 600px;
     font-family: 'FuturaMedium';
 }
 
@@ -121,6 +122,10 @@ label,input {
     .contact-form label {
         font-size: 4vw;
     }
+    .contact-form-input-message {
+        font-size: 3vw;
+        width: 400px;
+    }
 }
 
 @media only screen and (max-width: 1100px) {
@@ -133,6 +138,7 @@ label,input {
     }
     .contact-form-input-message {
         font-size: 5vw;
+        width: 475px;
     }
     .contact-form-button {
         width: 15vw;
@@ -155,6 +161,30 @@ label,input {
     }
     .contact-form-input-message {
         font-size: 6vw;
+        width: 350px;
+    }
+    .contact-form-button {
+        width: 22vw;
+    }
+    .contact-form-button span {
+        font-size: 10vw;
+    }
+    .contact-form-send h1 {
+        font-size: 15vw;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .contact-form label {
+        font-size: 12vw;
+    }
+    .contact-form input {
+        font-size: 5vw;
+        height: 8vw;
+    }
+    .contact-form-input-message {
+        font-size: 9vw;
+        width: 300px;
     }
     .contact-form-button {
         width: 22vw;

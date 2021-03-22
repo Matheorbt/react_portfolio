@@ -38,7 +38,7 @@ function ProjectGrid() {
                             <p className="work-bottom-grid-element-description">{workData[0].description}</p>
                         </animated.div>
                     </div>
-                    <a className="work-bottom-grid-element-link" href={workData[0].projectLink}>Accéder au projet !</a>
+                    <a className="work-bottom-grid-element-link" rel="noreferrer" href={workData[0].projectLink}>Accéder au projet !</a>
                 </div>
                 <div className="project-element-grid-wrap">
                     <div className={"work-grid-element-main-wrap number-" + workData[1].id} onClick={() => setFlippedTwo(state => !state)}>
@@ -50,7 +50,7 @@ function ProjectGrid() {
                             <p className="work-bottom-grid-element-description">{workData[1].description}</p>
                         </animated.div>
                     </div>
-                    <a className="work-bottom-grid-element-link" href={workData[1].projectLink}>Accéder au projet !</a>
+                    <a className="work-bottom-grid-element-link" rel="noreferrer" href={workData[1].projectLink}>Accéder au projet !</a>
                 </div>
                 <div className="project-element-grid-wrap">
                     <div className={"work-grid-element-main-wrap number-" + workData[2].id} onClick={() => setFlippedThree(state => !state)}>
@@ -62,7 +62,7 @@ function ProjectGrid() {
                             <p className="work-bottom-grid-element-description">{workData[2].description}</p>
                         </animated.div>
                     </div>
-                    <a className="work-bottom-grid-element-link" target="_blank" href={workData[2].projectLink}>Accéder au projet !</a>
+                    <a className="work-bottom-grid-element-link" rel="noreferrer" target="_blank" href={workData[2].projectLink}>Accéder au projet !</a>
                 </div>
             </section>
         </React.Fragment >
