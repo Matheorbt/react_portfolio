@@ -4,14 +4,14 @@ export const workData = [
         img: 'https://user-images.githubusercontent.com/57138558/110000429-9013cf00-7d13-11eb-97c9-a3f5dc9c3ec4.PNG',
         title: 'Portfolio using Parallax',
         description: 'Site inspiré du portfolio de Kuon Yagi utilisant la librairie fullPage.js, parallax.js, wow.js et le préprocesseur SASS',
-        projectLink: ''
+        projectLink: 'https://portfolio-parallax.netlify.app/'
     },
     {
         id: 2,
         img: 'https://user-images.githubusercontent.com/57138558/110000559-ba658c80-7d13-11eb-9c53-83dd00fefa4d.PNG',
         title: 'React Bookshelf',
         description: 'Projet réalisé via le framework React afin d\'utiliser les hook comme useState',
-        projectLink: ''
+        projectLink: 'https://react-bookshelf-hook.netlify.app/'
     },
     {
         id: 3,

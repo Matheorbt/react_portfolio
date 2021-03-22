@@ -38,7 +38,8 @@
 
 .work-bottom-grid-element-link {
     font-size: 3vw;
-    width: 50%px;
+    width: 50%;
+    min-width: 450px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -226,5 +227,19 @@
     }
     .work-bottom-grid-element-description {
         font-size: 7vw;
+    }
+}
+
+@media only screen and (max-device-width: 600px)  {
+    .work-bottom-grid-element-link {
+        font-size: 8vw;
+        min-width: 300px;
+    }
+}
+
+@media only screen and (max-device-width: 400px)  {
+    .work-bottom-grid-element-link {
+        font-size: 8vw;
+        min-width: 200px;
     }
 }
