@@ -28,36 +28,42 @@ function ProjectGrid() {
         <React.Fragment>
             <h1 className="work-section-hero-title">Pour en savoir plus sur un projet cliquez dessus !</h1>
             <section className="project-main-wrapper">
-                <div className={"work-grid-element-main-wrap number-" + workData[0].id} onClick={() => setFlippedOne(state => !state)}>
-                    <animated.div className="work-bottom-grid-element-front" style={{ opacity: opacityOne.interpolate(o => 1 - o), transform: transformOne }}>
-                        <img className="work-bottom-grid-element-img" src={workData[0].img} alt="logo preview"></img>
-                    </animated.div>
-                    <animated.div className="work-bottom-grid-element-back" style={{ opacity: opacityOne, transform: transformOne.interpolate(t => `${t} rotateX(180deg)`) }} >
-                        <h1 className="work-bottom-grid-element-title">{workData[0].title}</h1>
-                        <p className="work-bottom-grid-element-description">{workData[0].description}</p>
-                    </animated.div>
+                <div className="project-element-grid-wrap">
+                    <div className={"work-grid-element-main-wrap number-" + workData[0].id} onClick={() => setFlippedOne(state => !state)}>
+                        <animated.div className="work-bottom-grid-element-front" style={{ opacity: opacityOne.interpolate(o => 1 - o), transform: transformOne }}>
+                            <img className="work-bottom-grid-element-img" src={workData[0].img} alt="logo preview"></img>
+                        </animated.div>
+                        <animated.div className="work-bottom-grid-element-back" style={{ opacity: opacityOne, transform: transformOne.interpolate(t => `${t} rotateX(180deg)`) }} >
+                            <h1 className="work-bottom-grid-element-title">{workData[0].title}</h1>
+                            <p className="work-bottom-grid-element-description">{workData[0].description}</p>
+                        </animated.div>
+                    </div>
+                    <a className="work-bottom-grid-element-link" href={workData[0].projectLink}>Accéder au projet !</a>
                 </div>
-                <a className="work-bottom-grid-element-link" href={workData[0].projectLink}>Accéder au projet !</a>
-                <div className={"work-grid-element-main-wrap number-" + workData[1].id} onClick={() => setFlippedTwo(state => !state)}>
-                    <animated.div className="work-bottom-grid-element-front" style={{ opacity: opacityTwo.interpolate(o => 1 - o), transform: transformTwo }}>
-                        <img className="work-bottom-grid-element-img" src={workData[1].img} alt="logo preview"></img>
-                    </animated.div>
-                    <animated.div className="work-bottom-grid-element-back" style={{ opacity: opacityTwo, transform: transformTwo.interpolate(t => `${t} rotateX(180deg)`) }} >
-                        <h1 className="work-bottom-grid-element-title">{workData[1].title}</h1>
-                        <p className="work-bottom-grid-element-description">{workData[1].description}</p>
-                    </animated.div>
+                <div className="project-element-grid-wrap">
+                    <div className={"work-grid-element-main-wrap number-" + workData[1].id} onClick={() => setFlippedTwo(state => !state)}>
+                        <animated.div className="work-bottom-grid-element-front" style={{ opacity: opacityTwo.interpolate(o => 1 - o), transform: transformTwo }}>
+                            <img className="work-bottom-grid-element-img" src={workData[1].img} alt="logo preview"></img>
+                        </animated.div>
+                        <animated.div className="work-bottom-grid-element-back" style={{ opacity: opacityTwo, transform: transformTwo.interpolate(t => `${t} rotateX(180deg)`) }} >
+                            <h1 className="work-bottom-grid-element-title">{workData[1].title}</h1>
+                            <p className="work-bottom-grid-element-description">{workData[1].description}</p>
+                        </animated.div>
+                    </div>
+                    <a className="work-bottom-grid-element-link" href={workData[1].projectLink}>Accéder au projet !</a>
                 </div>
-                <a className="work-bottom-grid-element-link" href={workData[1].projectLink}>Accéder au projet !</a>
-                <div className={"work-grid-element-main-wrap number-" + workData[2].id} onClick={() => setFlippedThree(state => !state)}>
-                    <animated.div className="work-bottom-grid-element-front" style={{ opacity: opacityThree.interpolate(o => 1 - o), transform: transformThree }}>
-                        <img className="work-bottom-grid-element-img" src={workData[2].img} alt="logo preview"></img>
-                    </animated.div>
-                    <animated.div className="work-bottom-grid-element-back" style={{ opacity: opacityThree, transform: transformThree.interpolate(t => `${t} rotateX(180deg)`) }} >
-                        <h1 className="work-bottom-grid-element-title">{workData[2].title}</h1>
-                        <p className="work-bottom-grid-element-description">{workData[2].description}</p>
-                    </animated.div>
+                <div className="project-element-grid-wrap">
+                    <div className={"work-grid-element-main-wrap number-" + workData[2].id} onClick={() => setFlippedThree(state => !state)}>
+                        <animated.div className="work-bottom-grid-element-front" style={{ opacity: opacityThree.interpolate(o => 1 - o), transform: transformThree }}>
+                            <img className="work-bottom-grid-element-img" src={workData[2].img} alt="logo preview"></img>
+                        </animated.div>
+                        <animated.div className="work-bottom-grid-element-back" style={{ opacity: opacityThree, transform: transformThree.interpolate(t => `${t} rotateX(180deg)`) }} >
+                            <h1 className="work-bottom-grid-element-title">{workData[2].title}</h1>
+                            <p className="work-bottom-grid-element-description">{workData[2].description}</p>
+                        </animated.div>
+                    </div>
+                    <a className="work-bottom-grid-element-link" target="_blank" href={workData[2].projectLink}>Accéder au projet !</a>
                 </div>
-                <a className="work-bottom-grid-element-link" target="_blank" href={workData[2].projectLink}>Accéder au projet !</a>
             </section>
         </React.Fragment >
     )

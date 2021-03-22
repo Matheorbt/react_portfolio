@@ -1,10 +1,10 @@
 .project-main-wrapper {
     display: grid;
-    grid-template-columns: repeat(2, 45vw);
-    grid-template-rows: repeat(2, 25vw);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     place-items: center;
-    width: 95%;
-    grid-gap: 20px;
+    width: 100vw;
+    grid-gap: 45px;
     margin-bottom: 45px;
 }
 
@@ -28,9 +28,17 @@
     transform: scale(1.05);
 }
 
+.project-element-grid-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 45px;
+}
+
 .work-bottom-grid-element-link {
     font-size: 3vw;
-    margin-right:10px;
+    width: 50%px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -60,11 +68,12 @@
     width: 100%;
     border-radius: 35px;
     background-color: white;
-    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    position: absolute;
+    z-index: 20;
 }
 
 .work-bottom-grid-element-title {
@@ -89,9 +98,9 @@
     z-index: 25;
 }
 
-.work-bottom-grid-element-back {
-    position: absolute;
-    z-index: 20;
+.work-grid-element-main-wrap {
+    margin-top: 45px;
+    margin-bottom: 45px;
 }
 
 /* First Project */
@@ -103,6 +112,8 @@
     display: flex;
     justify-content: center;
     position: relative;
+    height: 25vw;
+    width: 40vw;
 }
 
 /* Second Project */
@@ -113,6 +124,8 @@
     display: flex;
     justify-content: center;
     position: relative;
+    height: 25vw;
+    width: 40vw;
 }
 
 /* Third Project */
@@ -123,6 +136,8 @@
     display: flex;
     justify-content: center;
     position: relative;
+    height: 25vw;
+    width: 20vw;
 }
 
 .work-grid-element-main-wrap .work-bottom-grid-element-img {
@@ -139,5 +154,77 @@
 @media only screen and (max-device-width: 1450px)  {
     .project-main-wrapper {
         grid-template-columns: repeat(1, 1fr);
+    }
+    .work-bottom-grid-element-title {
+        font-size: 6vw;
+    }
+    .work-bottom-grid-element-description {
+        font-size: 5vw;
+    }
+    .number-3 {
+    height: 50vw;
+    width: 40vw;
+    }
+    .number-2 {
+    height: 50vw;
+    width: 80vw;
+    }
+    .number-1 {
+    height: 50vw;
+    width: 80vw;
+    }
+    .work-bottom-grid-element-link {
+        font-size: 4vw;
+    }
+    .work-section-hero-title {
+        font-size: 6vw;
+    }
+}
+
+@media only screen and (max-device-width: 1000px)  {
+    .project-main-wrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .number-3 {
+    height: 50vw;
+    width: 40vw;
+    }
+    .number-2 {
+    height: 50vw;
+    width: 80vw;
+    }
+    .number-1 {
+    height: 50vw;
+    width: 80vw;
+    }
+    .work-bottom-grid-element-link {
+        font-size: 6vw;
+    }
+}
+
+@media only screen and (max-device-width: 900px)  {
+    .project-main-wrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .number-3 {
+    height: 50vw;
+    width: 40vw;
+    }
+    .number-2 {
+    height: 50vw;
+    width: 80vw;
+    }
+    .number-1 {
+    height: 50vw;
+    width: 80vw;
+    }
+    .work-bottom-grid-element-link {
+        font-size: 8vw;
+    }
+    .work-section-hero-title {
+        font-size: 9vw;
+    }
+    .work-bottom-grid-element-description {
+        font-size: 7vw;
     }
 }
