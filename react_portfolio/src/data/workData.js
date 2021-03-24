@@ -11,7 +11,7 @@ export const workData = [
         img: 'https://user-images.githubusercontent.com/57138558/110000559-ba658c80-7d13-11eb-9c53-83dd00fefa4d.PNG',
         title: 'React Bookshelf',
         description: 'Projet réalisé via le framework React afin d\'utiliser les hook comme useState',
-        projectLink: 'https://react-bookshelf-hook.netlify.app/'
+        projectLink: 'https://react-bookshelf-usestate.netlify.app/'
     },
     {
         id: 3,

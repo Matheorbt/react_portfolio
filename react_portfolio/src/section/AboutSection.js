@@ -14,7 +14,7 @@ function AboutSection() {
                     <button className="about-know-more-arrow" onClick={() => handleKnowMore()}><i className="fa fa-arrow-circle-o-left" aria-hidden="true"></i>Retour</button>
                     <div className="about-know-more-main-wrapper">
                         <div className="about-know-more-profile-picture-wrapper">
-                            <img className="about-know-more-profile-picture" src="https://www.matheorbt.com/img/profile_picture.jpg" alt="profile" />
+                            <img className="about-know-more-profile-picture" src="./profile_picture.jpg" alt="profile" />
                         </div>
                         <div className="about-know-more-description">
                             Actuellement étudiant en première année au cursus PGE de l'école Epitech sur le campus de Lyon, j'ai
